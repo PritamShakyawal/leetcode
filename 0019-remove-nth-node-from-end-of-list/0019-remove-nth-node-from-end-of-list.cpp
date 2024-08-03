@@ -14,14 +14,14 @@ public:
         if (head == NULL) {
         return NULL;
     }
-        if(head->next == NULL && n==1){
-            return NULL;
-        }
+//         if(head->next == NULL && n==1){
+//             return NULL;
+//         }
         
-        if(head->next->next == NULL && n==2){
-            head = head->next;
-            return head;
-        }
+//         if(head->next->next == NULL && n==2){
+//             head = head->next;
+//             return head;
+//         }
         
         int count = 0;
         ListNode* temp = head;
