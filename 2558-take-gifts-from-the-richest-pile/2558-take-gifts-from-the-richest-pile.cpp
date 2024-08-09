@@ -4,7 +4,7 @@ public:
         int n = gifts.size();
         long long ans = 0;
         sort(gifts.begin(), gifts.end());
-        long long i = n-1;
+        int i = n-1;
         while(k>0){
         gifts[i] = (floor(sqrt(gifts[i])));
         // cout << "Yhi gdbd hai" << gifts[i] << endl;
