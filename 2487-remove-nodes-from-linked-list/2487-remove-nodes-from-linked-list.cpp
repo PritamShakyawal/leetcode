@@ -19,7 +19,7 @@ public:
             prev=curr;
             curr=nxt;
         }
-        return head=prev;
+        return prev;
     }
     ListNode* removeNodes(ListNode* head) {
         head = reverseList(head);
