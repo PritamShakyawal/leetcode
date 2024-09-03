@@ -21,7 +21,7 @@ public:
             if(nums[i] == ele) cnt1++;
          }
 
-         if(cnt1 > (nums.size()/3)){
+         if(cnt1 > (nums.size()/2)){
             return ele;
          }
          return -1;
