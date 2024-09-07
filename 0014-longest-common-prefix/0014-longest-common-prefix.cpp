@@ -10,7 +10,7 @@ public:
             bool match = true;
             
             for(int j=1; j<n; j++){
-                if( ch != strs[j][i]){
+                if(strs[j].size() < i || ch != strs[j][i]){
                     match = false;
                     break;
                 }
