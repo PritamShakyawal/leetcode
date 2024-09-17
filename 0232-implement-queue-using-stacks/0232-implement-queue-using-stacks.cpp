@@ -11,7 +11,7 @@ public:
     }
     
     int pop() {
-         if (output.empty())
+         if(output.empty())
       while (input.size())
         output.push(input.top()), input.pop();
 
@@ -22,8 +22,9 @@ public:
     
     int peek() {
         if (output.empty())
-      while (input.size())
-        output.push(input.top()), input.pop();
+      while (input.size()){
+    output.push(input.top()), input.pop();
+      }
     return output.top();
     }
     
