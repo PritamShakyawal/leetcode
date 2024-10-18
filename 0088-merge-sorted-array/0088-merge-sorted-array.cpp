@@ -30,8 +30,11 @@ public:
       
         
        int i = m - 1;
+        cout << "i "<< i<<" "<<endl;
     int j = n - 1;
+        cout<<"j " << j <<endl;
     int k = m + n - 1;
+        cout << k <<" ";
     while (i >= 0 && j >= 0) {
         if (nums1[i] > nums2[j]) {
             nums1[k] = nums1[i];
