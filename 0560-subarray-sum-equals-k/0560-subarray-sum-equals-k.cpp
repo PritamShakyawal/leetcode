@@ -24,23 +24,38 @@ public:
 //        return ans;
         
         
+   
         
+//         map<int, int> mpp;
+//         mpp[0] = 1;
         
-        map<int, int> mpp;
-        mpp[0] = 1;
+//         int preSum = 0, cnt = 0;
         
-        int preSum = 0, cnt = 0;
-        
-        for(int i=0; i<nums.size(); i++){
-            preSum +=nums[i];
-            int remove = preSum - k;
+//         for(int i=0; i<nums.size(); i++){
+//             preSum +=nums[i];
+//             int remove = preSum - k;
             
-            cnt += mpp[remove];
+//             cnt += mpp[remove];
             
-            mpp[preSum] += 1;
+//             mpp[preSum] += 1;
+//         }
+        
+//         return cnt;
+        
+        
+        int maxi = INT_MIN;
+        int count = 0;
+        int n = nums.size();
+        for(int i=0; i<n; i++){
+            int sum = 0;
+            for(int j=i; j<n; j++){
+                 sum += nums[j];
+                if (sum == k) {
+                count++;  // Found a valid subarray
+            }
+            }
+            maxi = max(maxi, count);
         }
-        
-        return cnt;
-    
+        return maxi;
     }
 };
