@@ -20,7 +20,7 @@ public:
                 temp->next = temp1;
                 temp = temp1;
                 temp1 = temp1->next;
-            }
+            }                       
             else {
                 temp->next = temp2;
                 temp = temp2;
