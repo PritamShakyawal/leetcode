@@ -22,8 +22,8 @@ public:
             k += nums[i];
         }
         if (k % 2 != 0) return false;
-        int target = k / 2;
+        int target = k/2;
         vector<vector<int>> dp(n, vector<int>(target + 1, -1));
-     return f(n-1,target,nums, dp);
+        return f(n-1,target,nums, dp);
     }
 };
