@@ -12,9 +12,9 @@ class Solution {
 	}
 }
 public:
-    int longestCommonSubsequence(string text1, string text2) {
-        int ind1 = text1.size(); int ind2 = text2.size(); 
-	    vector<vector<int>> dp(ind1, vector<int>(ind2, -1)); 
+    int longestCommonSubsequence(string text1, string text2){
+        int ind1 = text1.size(); int ind2 = text2.size();
+	    vector<vector<int>> dp(ind1, vector<int>(ind2+1, -1)); 
 	    return f(ind1-1, ind2-1, text1, text2, dp);
     }
 };
