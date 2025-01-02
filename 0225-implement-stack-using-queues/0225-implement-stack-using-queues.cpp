@@ -6,7 +6,7 @@ public:
     }
     
     void push(int x) {
-        int s = q.size();
+      int s = q.size();
       q.push(x);
       for (int i = 0; i < s; i++) {
 
