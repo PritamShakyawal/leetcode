@@ -4,6 +4,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/PritamShakyawal/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0219-contains-duplicate-ii](https://github.com/PritamShakyawal/leetcode/tree/master/0219-contains-duplicate-ii) |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/PritamShakyawal/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
 ## Hash Table
@@ -51,4 +52,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2695-find-score-of-an-array-after-marking-all-elements](https://github.com/PritamShakyawal/leetcode/tree/master/2695-find-score-of-an-array-after-marking-all-elements) |
+## Binary Search
+|  |
+| ------- |
+| [0153-find-minimum-in-rotated-sorted-array](https://github.com/PritamShakyawal/leetcode/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 <!---LeetCode Topics End-->
