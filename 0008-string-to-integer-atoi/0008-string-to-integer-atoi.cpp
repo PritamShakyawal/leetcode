@@ -18,7 +18,7 @@ public:
             int digit = s[i] - '0';
         
         // Check if num * 10 + digit would cause overflow
-        if (num > (intMax - digit) / 10) {
+        if (num > (intMax - digit) / 10){
             return (sign == 1) ? intMax : intMin;
         }
 
